@@ -17,7 +17,7 @@ Product.init(
       autoIncrement: true,
     },
     product_name: {
-      type: DataTypes.VARCHAR(50),
+      type: DataTypes.STRING,
       allowNull: false,
     },
     price: {
@@ -36,10 +36,11 @@ Product.init(
       },
     },
     category_id: {
-        type: DataTypes.INTEGER,
-        references: {
-          model: 'category',
-          key: 'id',
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      references: {
+        model: 'category',
+        key: 'id', 
       },
     },
   },
