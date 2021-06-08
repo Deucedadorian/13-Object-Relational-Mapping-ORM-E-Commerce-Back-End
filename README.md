@@ -4,8 +4,9 @@
 
 This aplication is a model for a back end e-commerce site.
 
-##  Link to Deployed Application
+##  Link to video "demonstrating the entirety of the app's functionality"
 
+https://youtu.be/i-qrzFCKH78
 
 ## Usage
 
